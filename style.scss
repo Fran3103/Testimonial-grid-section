@@ -12,7 +12,10 @@ $White: hsl(0, 0%, 100%);
 $Lightgray: hsl(0, 0%, 81%);
 $Lightgrayishblue: hsl(210, 46%, 95%);
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin: 30px 0;}
 .attribution a { color: hsl(228, 45%, 44%); }
 
 body{
