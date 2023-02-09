@@ -1,0 +1,187 @@
+@import url(/Sass/cssreload.css);
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Open+Sans&display=swap');
+
+$font:'Barlow Semi Condensed';
+
+
+$Moderateviolet: hsl(263, 55%, 52%);
+$Verydarkgrayishblue: hsl(217, 19%, 35%);
+$Verydarkblackishblue: hsl(219, 29%, 14%);
+$White: hsl(0, 0%, 100%);
+
+$Lightgray: hsl(0, 0%, 81%);
+$Lightgrayishblue: hsl(210, 46%, 95%);
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    background-color: $Lightgrayishblue;
+}
+.container-cards{
+    padding: 20px;
+    font-family: $font;
+    color: $White;
+    display: grid;
+    max-width: 355px;
+    margin: 30px auto;
+
+    border-radius: 10px;
+    gap: 20px;
+    
+    .card{
+        
+        width: 100%;
+        padding: 20px;
+        border-radius: 10px;
+
+        .img{ display: flex;
+                gap: 15px;
+                justify-content: start;
+                align-items: center;
+                margin-bottom: 30px;
+            .name{
+                font-size: 12px;
+                font-weight: 600;
+                font-family: $font;
+                color: $White;
+            }
+            .grade{
+                font-size: 10px;
+                font-weight: 500;
+                color: $Lightgray;
+            }
+            img{
+            border-radius: 50%;
+            border: 1px solid $Lightgray;
+            max-width: 30px;
+            }
+        }
+
+        .texto-1{
+            margin-bottom: 30px;
+            p{
+                font-size: 20px;
+                font-weight: 600;
+                
+                
+
+            }
+        }
+        .texto-2{
+            margin-bottom: 20px;
+            p{
+                font-size: 13px;
+                font-weight: 500;
+                line-height: 18px;
+                color: $Lightgray
+            };
+        }
+    }
+
+    .card-1{
+
+        background:url(/images/bg-pattern-quotation.svg) 90% 0%  no-repeat  $Moderateviolet;
+        .texto-1{
+            margin-right: 14px;
+        }
+
+        .texto-2{
+            margin-right: 26px;
+            
+        }
+
+    }
+
+    .card-2{
+        background-color: $Verydarkgrayishblue;
+        .img{   
+            .name{
+                color: $Lightgrayishblue;
+            }
+        }
+        .texto-1{
+            p{
+                margin-right: 20px;
+
+            }
+            
+
+        }
+
+        .texto-2{
+            margin-right: 10px;
+        }
+
+    }
+
+    .card-3{
+        background-color: $White;
+        .img{
+            .name{
+            color: $Verydarkgrayishblue;}
+            
+        }
+        .texto-1{
+            p{
+                color: $Verydarkgrayishblue;
+                font-size: 20px;
+            }
+        }
+        .texto-2{
+            p{
+                color: $Verydarkgrayishblue;
+                margin-right: 10px;
+            }
+            
+        }
+    }
+
+    .card-4{
+        background-color: $Verydarkblackishblue;
+
+        .img{
+            .name{
+                color: $Lightgrayishblue;
+            }
+        }
+        .texto-1{
+            p{
+                margin-right: 10px;
+                color: $Lightgrayishblue;
+            }
+        }
+
+        .texto-2{
+            p{
+                margin-right: 15px;
+            }
+        }
+    }
+
+    .card-5{
+        background-color: $White;
+        .img{
+            .name{
+                color: $Verydarkgrayishblue;
+                font-weight: 500;
+            }
+            
+    }
+    .texto-1{
+        p{
+            color: $Verydarkgrayishblue;
+            font-weight: 600;
+        }
+        
+    }
+
+    .texto-2{
+        p{
+            margin-right: 13px;
+            color: $Verydarkgrayishblue;
+
+        }
+    }
+}
+}

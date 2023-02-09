@@ -1,0 +1,132 @@
+@import url(/Sass/cssreload.css);
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Open+Sans&display=swap");
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+body {
+  background-color: hsl(210deg, 46%, 95%);
+}
+
+.container-cards {
+  padding: 20px;
+  font-family: "Barlow Semi Condensed";
+  color: hsl(0deg, 0%, 100%);
+  display: grid;
+  max-width: 355px;
+  margin: 30px auto;
+  border-radius: 10px;
+  gap: 20px;
+}
+.container-cards .card {
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+}
+.container-cards .card .img {
+  display: flex;
+  gap: 15px;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.container-cards .card .img .name {
+  font-size: 12px;
+  font-weight: 600;
+  font-family: "Barlow Semi Condensed";
+  color: hsl(0deg, 0%, 100%);
+}
+.container-cards .card .img .grade {
+  font-size: 10px;
+  font-weight: 500;
+  color: hsl(0deg, 0%, 81%);
+}
+.container-cards .card .img img {
+  border-radius: 50%;
+  border: 1px solid hsl(0deg, 0%, 81%);
+  max-width: 30px;
+}
+.container-cards .card .texto-1 {
+  margin-bottom: 30px;
+}
+.container-cards .card .texto-1 p {
+  font-size: 20px;
+  font-weight: 600;
+}
+.container-cards .card .texto-2 {
+  margin-bottom: 20px;
+}
+.container-cards .card .texto-2 p {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 18px;
+  color: hsl(0deg, 0%, 81%);
+}
+.container-cards .card-1 {
+  background: url(/images/bg-pattern-quotation.svg) 90% 0% no-repeat hsl(263deg, 55%, 52%);
+}
+.container-cards .card-1 .texto-1 {
+  margin-right: 14px;
+}
+.container-cards .card-1 .texto-2 {
+  margin-right: 26px;
+}
+.container-cards .card-2 {
+  background-color: hsl(217deg, 19%, 35%);
+}
+.container-cards .card-2 .img .name {
+  color: hsl(210deg, 46%, 95%);
+}
+.container-cards .card-2 .texto-1 p {
+  margin-right: 20px;
+}
+.container-cards .card-2 .texto-2 {
+  margin-right: 10px;
+}
+.container-cards .card-3 {
+  background-color: hsl(0deg, 0%, 100%);
+}
+.container-cards .card-3 .img .name {
+  color: hsl(217deg, 19%, 35%);
+}
+.container-cards .card-3 .texto-1 p {
+  color: hsl(217deg, 19%, 35%);
+  font-size: 20px;
+}
+.container-cards .card-3 .texto-2 p {
+  color: hsl(217deg, 19%, 35%);
+  margin-right: 10px;
+}
+.container-cards .card-4 {
+  background-color: hsl(219deg, 29%, 14%);
+}
+.container-cards .card-4 .img .name {
+  color: hsl(210deg, 46%, 95%);
+}
+.container-cards .card-4 .texto-1 p {
+  margin-right: 10px;
+  color: hsl(210deg, 46%, 95%);
+}
+.container-cards .card-4 .texto-2 p {
+  margin-right: 15px;
+}
+.container-cards .card-5 {
+  background-color: hsl(0deg, 0%, 100%);
+}
+.container-cards .card-5 .img .name {
+  color: hsl(217deg, 19%, 35%);
+  font-weight: 500;
+}
+.container-cards .card-5 .texto-1 p {
+  color: hsl(217deg, 19%, 35%);
+  font-weight: 600;
+}
+.container-cards .card-5 .texto-2 p {
+  margin-right: 13px;
+  color: hsl(217deg, 19%, 35%);
+}/*# sourceMappingURL=style.css.map */
