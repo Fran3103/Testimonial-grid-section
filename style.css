@@ -28,6 +28,7 @@ body {
   width: 100%;
   padding: 20px;
   border-radius: 10px;
+  box-shadow: 0px 0px 16px hsl(0deg, 0%, 81%);
 }
 .container-cards .card .img {
   display: flex;
