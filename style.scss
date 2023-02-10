@@ -267,3 +267,75 @@ body{
 }
 }
 
+/*  Version 1440px */
+
+@media screen and (min-width: 1300px) {
+    
+
+
+.container-cards{
+
+max-width: 1000px;
+    grid-template-columns: 240px 240px 240px 240px;
+    grid-template-rows: 260px 260px;
+
+    .card{
+        padding: 25px;
+
+
+        
+        .img{
+            margin-bottom: 15px;
+            .name{
+                font-size: 15px;
+            }
+            .grade{
+                font-size:12px;
+            }
+        }
+        .texto-1{
+            margin-bottom: 20px;
+            p{
+                font-size: 18px;
+            }
+
+        }
+        .texto-2{
+            margin-bottom: 13px;
+            p{
+                font-size: 12px;
+                line-height: 15px;
+            }
+        }
+    }
+
+    .card-1{
+        .texto-1{
+            margin-right: 19px;
+
+        }
+
+    }
+
+    .card-2{
+        .texto-1{
+            margin-right: 20px;
+        }
+    }
+
+
+
+    .card-5{
+        
+
+        .texto-2{
+            margin-bottom: 50px;
+        }
+    
+
+
+
+    }
+}
+
+}

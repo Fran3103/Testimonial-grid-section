@@ -188,4 +188,46 @@ body {
   .container-cards .card-5 .texto-2 {
     margin-bottom: 50px;
   }
+}
+/*  Version 1440px */
+@media screen and (min-width: 1300px) {
+  .container-cards {
+    max-width: 1000px;
+    grid-template-columns: 240px 240px 240px 240px;
+    grid-template-rows: 260px 260px;
+  }
+  .container-cards .card {
+    padding: 25px;
+  }
+  .container-cards .card .img {
+    margin-bottom: 15px;
+  }
+  .container-cards .card .img .name {
+    font-size: 15px;
+  }
+  .container-cards .card .img .grade {
+    font-size: 12px;
+  }
+  .container-cards .card .texto-1 {
+    margin-bottom: 20px;
+  }
+  .container-cards .card .texto-1 p {
+    font-size: 18px;
+  }
+  .container-cards .card .texto-2 {
+    margin-bottom: 13px;
+  }
+  .container-cards .card .texto-2 p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .container-cards .card-1 .texto-1 {
+    margin-right: 19px;
+  }
+  .container-cards .card-2 .texto-1 {
+    margin-right: 20px;
+  }
+  .container-cards .card-5 .texto-2 {
+    margin-bottom: 50px;
+  }
 }/*# sourceMappingURL=style.css.map */
